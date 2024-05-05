@@ -18,8 +18,8 @@ services:
     volumes:
       - ./data:/var/lib/postgresql/data
     environment:
-      - POSTGRES_PASSWORD=Anjola123@
-      - POSTGRES_DB=fastapi-assessment
-      - DB_PASS=Anjola123@
-      - BN_NAME=fastapi-assessment
-      - DB_USER = postgres
+      - POSTGRES_PASSWORD=
+      - POSTGRES_DB
+      - DB_PASS
+      - BN_NAME
+      - DB_USER
